@@ -1,7 +1,7 @@
 import { groq } from '@ai-sdk/groq';
 import { generateText } from 'ai';
 import { SAMPLE_TUTORS } from '@/lib/data';
-
+// here the ai gives recommendation
 export async function POST(req: Request) {
   try {
     const { interests } = await req.json();
