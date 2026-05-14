@@ -1,4 +1,4 @@
-import { groq } from '@ai-sdk/groq';
+import { groq } from '@ai-sdk/groq';//here we want the Ai to chat with our user/client.
 import { streamText } from 'ai';
 
 export const maxDuration = 30;
